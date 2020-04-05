@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WindApp</string>
+
+    <string name="action_home">Accueil</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_about">A propos</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="test">TEST</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="setting_temperature">Température en degrés fahrenheit (défaut : Celsius)</string>
+    <string name="setting_speed">Vitesse en noeud (défaut en km/h)</string>
+    <string name="btn_map">Go !</string>
+    <string name="btn_invite">Invite un(e) ami(e)</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="text_invite">Inviter un(e) ami(e)</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_hours">Heure</string>
+    <string name="btn_send">Envoyer</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="wind_rose">wind rose</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutActivity">
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:text="Développé par\n\nNathan Cuvellier\n\n &amp; dessiné par\n\nNicolas Francisco\n\n\n© 2020 Wind App" />
+
+
+
+</LinearLayout>

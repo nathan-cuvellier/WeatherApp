@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SettingActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/tool_bar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        tools:ignore="RtlSymmetry"
+        >
+        <TextView
+            android:labelFor="@id/checkbox_temperature"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_temperature"
+            android:layout_gravity="center"
+            />
+        <CheckBox
+            android:labelFor="@id/checkbox_temperature"
+            android:id="@+id/checkbox_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        tools:ignore="RtlSymmetry"
+        >
+        <TextView
+            android:labelFor="@id/checkbox_speed"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_speed"
+            android:layout_gravity="center"
+            />
+        <CheckBox
+            android:id="@+id/checkbox_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
